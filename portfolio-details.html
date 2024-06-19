@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Michael Danquah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Michael Danquah</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#bio">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 3-Tier Architecture Project -->
+    <section id="3-tier-details" class="project-details">
+        <div class="container">
+            <h2>3-Tier Architecture Project</h2>
+            <p>In this project, I implemented a 3-tier architecture on AWS to create a highly available and scalable web application. The architecture consists of a presentation tier, an application tier, and a data tier. The presentation tier is handled by Elastic Load Balancer (ELB), distributing incoming traffic across multiple Amazon EC2 instances in the application tier. The data tier utilizes Amazon RDS for reliable and scalable database management.</p>
+            <p>The application is designed to handle large volumes of traffic with zero downtime, thanks to the load balancing and auto-scaling features. Additionally, the data tier's RDS setup ensures data redundancy and automated backups for disaster recovery.</p>
+            <p><a href="https://github.com/Mickeydoe/AWS_EC2_TERRAFORM" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- 2-Tier Architecture Project -->
+    <section id="2-tier-details" class="project-details">
+        <div class="container">
+            <h2>2-Tier Architecture Project</h2>
+            <p>This project involved deploying a 2-tier web application on AWS. The application tier runs on EC2 instances, while the data tier is managed by a dedicated database server. This setup offers a streamlined and cost-effective approach for hosting and managing web applications with moderate traffic and database requirements.</p>
+            <p>The 2-tier architecture is ideal for applications that require a clear separation between the application and database layers, providing better manageability and maintenance.</p>
+            <p><a href="https://github.com/Mickeydoe/ALB" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- Web Server Infrastructure on AWS -->
+    <section id="web-server" class="project-details">
+        <div class="container">
+            <h2>Web Server Infrastructure on AWS</h2>
+            <p>For this project, I designed and implemented a scalable web server infrastructure on AWS using Terraform. The infrastructure includes multiple EC2 instances behind a load balancer, ensuring high availability and fault tolerance for web applications.</p>
+            <p>The use of Terraform for infrastructure as code (IaC) enables consistent and repeatable setups, reducing human error and speeding up the deployment process.</p>
+            <p><a href="https://github.com/Mickeydoe/EFS-TERRAFORM" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- S3 Buckets on AWS -->
+    <section id="s3-buckets" class="project-details">
+        <div class="container">
+            <h2>Provisioned S3 Buckets on AWS</h2>
+            <p>Using Terraform, I automated the provisioning of multiple Amazon S3 buckets on AWS. This project showcases my ability to streamline the management of storage resources in the cloud.</p>
+            <p>The setup includes configuring versioning, bucket policies, and lifecycle rules to manage the stored data efficiently and securely.</p>
+            <p><a href="https://github.com/Mickeydoe/S3-Website-Hosting-Terraform-" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- Static Website Hosting on S3 -->
+    <section id="s3-static-site" class="project-details">
+        <div class="container">
+            <h2>Static Website Hosting on S3</h2>
+            <p>In this project, I configured an S3 bucket to host a static website on AWS. The setup includes versioning and access control policies to ensure smooth and secure content delivery.</p>
+            <p>The website is designed to be cost-effective, scalable, and highly available, making it suitable for personal blogs, company portfolios, and other static content sites.</p>
+            <p><a href="https://github.com/Mickeydoe/S3-Website-Hosting-Terraform-" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- Multi-Site Deployment with Docker -->
+    <section id="docker-sites" class="project-details">
+        <div class="container">
+            <h2>Multi-Site Deployment with Docker</h2>
+            <p>This project involved containerizing and deploying multiple websites using Docker. I utilized Docker Compose to manage the deployment, ensuring a streamlined and consistent environment for running multiple applications.</p>
+            <p>The containerized setup simplifies application management, allowing for easy scaling, deployment, and isolation of different applications within the same host.</p>
+            <p><a href="https://github.com/Mickeydoe/Docker-webapp-v2" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <!-- RDS Management on AWS -->
+    <section id="rds" class="project-details">
+        <div class="container">
+            <h2>RDS Management on AWS</h2>
+            <p>For this project, I provisioned and managed an Amazon RDS instance to support the database needs of a web application. The RDS setup includes automated backups, scaling, and monitoring to maintain optimal performance and availability.</p>
+            <p>The database is configured for high availability, with failover support and read replicas to handle read-heavy workloads.</p>
+            <p><a href="https://github.com/Mickeydoe/AWS_ECS-" target="_blank">GitHub Repository</a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Michael Danquah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
